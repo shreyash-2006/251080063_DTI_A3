@@ -1,0 +1,131 @@
+        body {
+            margin: 0;
+            background-color: #f4f6f8;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #0a3d62;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin-top: 8px;
+            font-size: 15px;
+            color: #dcdde1;
+        }
+
+        /* NAVIGATION */
+        nav {
+            background-color: #1e272e;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 15px;
+        }
+
+        nav a.active {
+            background-color: white;
+            color: #0a3d62;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* CONTAINER */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        /* CONTACT INFO */
+        .contact-info {
+            background-color: white;
+            padding: 25px;
+            border-radius: 6px;
+            margin-bottom: 30px;
+        }
+
+        .contact-info h2 {
+            color: #0a3d62;
+            margin-top: 0;
+        }
+
+        .contact-info p {
+            line-height: 1.7;
+            color: #333;
+        }
+
+        /* FORM */
+        .contact-form {
+            background-color: white;
+            padding: 25px;
+            border-radius: 6px;
+        }
+
+        .contact-form h2 {
+            color: #0a3d62;
+            margin-top: 0;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            margin-top: 20px;
+            background-color: #0a3d62;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #07406a;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #1e272e;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            font-size: 14px;
+        }
